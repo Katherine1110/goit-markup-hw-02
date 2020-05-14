@@ -21,7 +21,7 @@ body {
 }
 
 .header-web {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -30,12 +30,12 @@ body {
 }
 
 .header-studio {
-    font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
 }
 
 .navigation .navigation-link {
@@ -75,6 +75,9 @@ color: var(--title-text-color);
 .contacts .contacts-link:focus {
     color: var(--accent-text-color);
 }
+
+
+                                    /* Web Studio main page */
 
 /* Hero */
 
@@ -159,7 +162,7 @@ color: var(--main-text-color);
 
 /* Footer */
 .footer-web {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 1.18;
@@ -168,7 +171,7 @@ color: var(--main-text-color);
 }
 
 .footer-studio {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 22px;
     line-height: 1.18;
@@ -209,12 +212,60 @@ color: var(--main-text-color);
     color: rgba(255, 255, 255, 0.4);
 }
 
+                                        /* Web Studio Portfolio page */
 
 
+.filter,
+.portfolio {
+    list-style: none;
+}
 
+.portfolio a {
+    text-decoration: none;
+}
 
+.filter .filter-item {
+    background: var(--button-bg-color);
+    color: var(--title-text-color);
+    border-radius: 4px;
+    text-align: center;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
 
+.filter .filter-item:hover,
+.filter .filter-item:focus {
+    background: var(--accent-text-color);
+    color: var(--caption-text-color);
+}
 
+.portfolio .portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.portfolio-caption {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.portfolio-description {
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: var(--caption-text-color);
+
+    background-color: cornflowerblue;
+}
 
 
 
